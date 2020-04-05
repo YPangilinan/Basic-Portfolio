@@ -3,22 +3,24 @@ body{
     color: #777777;
     font-size:18px;
     line-height:34px;
-    background: url(/Users/yssabelpangilinan/Desktop/Basic-Portfolio/assets/images/webb.png;)
+    background: url("../images/webb.png");
     
 }
+*{
+    box-sizing: border-box;
+}
 
-header{
+#mainhead{
     position:fixed;
-    align:center;
     z-index:99;
     width:100%;
-    max-width:960px;
     margin: 0 0 30px;
     overflow:auto;
     background:#ffffff;
     color: #ffffff;
     border-bottom:2px solid #cccccc;
     text-align: center;
+    padding:10px;
 
 }
 
@@ -27,59 +29,47 @@ header{
     background: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    margin-top:50px;
-    margin-left:50px;
     font-weight:700;
     width: 400px;
     height:90px;
-    padding: 5px;
     float: left;
-
+    text-align:center;
+    text-decoration:none;
+    margin-left:350px;
 }
 
-.navigation{
-    display:inline-block;
-    padding-left:15px;
-    margin-left:15px;
-    line-height:18px;
-    color: #999999;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #ffffff;
-    text-decoration:none;
-    border-left: 1px solid #efefef;
-    float: right;
-    margin-top:100px;
+nav{
+    float:right;
+    margin-top:25px;
+    margin-right:150px;
+}   
 
+#mainwrapper{
+    padding-top:130px;
+    margin-left:350px;
+}
+.about-me{
+    max-width:850px;
+    clear:both;
+    width:100%;
+    padding:20px;
+    margin:0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
 
 }
 
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align:left;
-    padding: 10px;
+    color:#4aaaa5;
     border-bottom: 1px solid #666666;
 }   
 
-.container-aboutme{
-    text-align: center;
-    padding-top:130px;
-    width:100%;
-    max-width:960px;
-    margin:0 auto;
-    clear:both;
 
-}
-#about-me{
-    max-width:960px;
-    font-size: 18px;
-    float:left;
-    width:100%;
-    text-align:center;
-
-}
-
-#p{
-    float:left;
+p{
+    margin-bottom:20px;
+    margin-left:20px;
 }
 
 .footer{
@@ -98,5 +88,24 @@ h2{
     align:center;
     text-align: left;
     padding-top:130px;
+    border:1px solid;
 
+}
+form{
+    margin:auto;
+}
+.portfolio{
+    max-width:960px;
+    align:center;
+    text-align: left;
+    padding-top:130px;
+    border:1px solid;
+}
+.links{
+    max-width:960px;
+
+}
+.image{
+    max-width:200px;
+    float:left;
 }
